@@ -1,5 +1,31 @@
-# Environment
-.env
+# Dependencies
+**/node_modules/
 
-# Misc.
+# Next.js
+**/.next/
+**/out/
 
+# Build output
+**/build/
+**/dist/
+**/coverage/
+*.tsbuildinfo
+
+# Local tooling state
+**/.vercel/
+**/.supabase/
+**/supabase/.temp/
+
+# Environment variables and credentials
+.env*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
